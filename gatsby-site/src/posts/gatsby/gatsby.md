@@ -5,6 +5,8 @@ date: "2019-09-24"
 
 I just launch a new portfolio
 
+![Bra](./Braa.JPG)
+
 ## Topics Covered
 
 1. Gatsby
