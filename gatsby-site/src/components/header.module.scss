@@ -1,27 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
 .header{
-    padding: 1rem 0 3rem;
+    text-align: center;
+    padding: 10rem 0 3rem;
 }
 
 .title {
+    
+    font-family: 'Lobster', cursive;
     color: #000000;
-    font-size: 3rem;
+    font-size: 5rem;
     text-decoration: none;
+
 }
 .nav-list{
+    font-family: 'Lobster', cursive;
     display:flex;
+    justify-content: space-between;
     list-style-type: none;
-    margin: 0;
 
 }
 .nav-item {
-    color: #999999;
+    color: #131212;
     font-size: .9rem;
-    margin-right: 1.3rem;
+   
     text-decoration: none;
 
 }
 .nav-item:hover{
-    color: #f13636;
+    color: #5c5c5c;
 }
 
 .active-nav-item {
