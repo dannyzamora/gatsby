@@ -2,28 +2,45 @@
 
 .header{
     text-align: center;
-    padding: 10rem 0 3rem;
+    padding: 3rem 0 8rem;
+   
 }
 
 .title {
-    
-    font-family: 'Lobster', cursive;
     color: #000000;
+    font-family: 'Lobster', cursive;
     font-size: 5rem;
     text-decoration: none;
 
+}
+.title-move{
+    position: relative;
+    animation-name: drif;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+
+}
+.nav{
+    opacity: 0;
+    animation-name: nonav;
+    animation-duration: .5s;
+    animation-delay: .95s;
+    animation-fill-mode: forwards;
+    
 }
 .nav-list{
     font-family: 'Lobster', cursive;
     display:flex;
     justify-content: space-between;
     list-style-type: none;
+    margin-top: -1rem;
+    margin-bottom: -3rem;
+    margin-left: 0rem;
 
 }
 .nav-item {
-    color: #131212;
     font-size: .9rem;
-   
+    color: #999999;
     text-decoration: none;
 
 }
@@ -33,4 +50,16 @@
 
 .active-nav-item {
     color: #690909
+}
+@keyframes drif{
+    0% {transform: translateY(-25vh)}
+    100%{transform: translateY(0vh)}
+}
+@keyframes nonav{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }

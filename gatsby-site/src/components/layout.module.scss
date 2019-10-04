@@ -7,8 +7,22 @@
     flex-direction: column;
     min-height: 100vh;
 }
+.body {
+    position: relative;
+    animation-name: drift;
+    animation-duration: 1s;
 
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards
+    
+}
 .content {
    flex-grow: 1;
    margin: 0 auto;
+
+   
+}
+@keyframes drift{
+    0% {transform: translateX(50vh)}
+    100%{transform: translateX(0vh)}
 }

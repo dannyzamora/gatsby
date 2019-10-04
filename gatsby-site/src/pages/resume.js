@@ -1,32 +1,21 @@
 import React from 'react'
 import Layout from '../components/layout'
 import Head from '../components/head'
-import {graphql,useStaticQuery} from 'gatsby'
+import { FaFileDownload } from "react-icons/fa";
 
 
-const ContactPage =()=> {
-    const data = useStaticQuery(graphql`
-    query{
-        markdownRemark (
-            frontmatter : {
-                title:{
-                    eq: "resume"
-                    }
-                    }
-                    ){
-                        html
-                        }
-                        }
-    `)
+
+const ResumePage =()=> {
     return (
         <Layout>
             <Head title ="Resume"/>
-            <div dangerouslySetInnerHTML = {{__html:data.markdownRemark.html}}>
-                
-            </div>
+            <div>
+                <FaFileDownload size = '5em'/>
+            </div> 
             
+
         </Layout>
     )
 }
 
-export default ContactPage
+export default ResumePage

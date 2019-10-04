@@ -7,11 +7,11 @@ import Head from '../components/head'
 
 const IndexPage = () => {
     return (
-        <Layout>
+        <Layout test = 'true' >
             <Head title = "Home"/>
  
-            <img id = 'img' src = './dan.jpeg' className ={indexStyles.img}></img>
-            <p className={indexStyles.p}> Hello, I’m Danny! I’m an aspiring software developer with a passion in frontend development.
+            {/* <img id = 'img' src = './dan.jpeg' className ={indexStyles.img}></img> */}
+            <p className={indexStyles.sum}> Hello, I’m Danny! I’m an aspiring software developer with a passion in frontend development.
 I’m a passionate outgoing individual that enjoys new challenges that will allow growth. However, I also want to utilize experiences from my internship, school, and life into projects and careers. My knowledge ranges in programming, but have more hands on experience with web development. 
 </p>
         </Layout>

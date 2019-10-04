@@ -11,7 +11,6 @@ const AboutPage =() => {
             <Head title = 'About'/>
             <h1> About Me</h1>
             <p>I currently work at the DOJ</p>
-            <p>Need me? <Link to = '/contact'>Contact me</Link></p>
 
         </Layout>
     )
