@@ -1,13 +1,16 @@
 .container{
+
     margin:  0 auto;
     max-width: 750px;
     padding :1rem;
-
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    border: #8892b0;
+    border-style: solid
 }
 .body {
+    color: #8892b0;
     position: relative;
     animation-name: drift;
     animation-duration: 1s;
