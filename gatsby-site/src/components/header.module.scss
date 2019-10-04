@@ -7,11 +7,15 @@
 }
 
 .title {
-    color: #000000;
+    color: #e6f1ff;
     font-family: 'Lobster', cursive;
     font-size: 5rem;
     text-decoration: none;
 
+
+}
+.title:hover{
+    color: #64ffda; 
 }
 .title-move{
     position: relative;
@@ -40,16 +44,16 @@
 }
 .nav-item {
     font-size: .9rem;
-    color: #999999;
+    color: #ccd6f6;
     text-decoration: none;
 
 }
 .nav-item:hover{
-    color: #5c5c5c;
+    color: #64ffda;
 }
 
 .active-nav-item {
-    color: #690909
+text-decoration: underline;
 }
 @keyframes drif{
     0% {transform: translateY(-25vh)}
