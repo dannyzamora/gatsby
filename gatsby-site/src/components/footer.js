@@ -9,10 +9,10 @@ const Footer =({test}) =>{
     return (
         <footer className = {footerStyles.footer}>
           <a  href = "https://www.linkedin.com/in/danny-zamora/">
-          <FaLinkedin size = '4em' className={icon}/>
+          <FaLinkedin size = '2em' className={icon}/>
           </a>
           <a  href = "https://github.com/dannyzamora">
-          <FaGithub size = '4em' className={icon}/>
+          <FaGithub size = '2em' className={icon}/>
           </a>
         </footer>
     )

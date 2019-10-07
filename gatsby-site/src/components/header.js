@@ -33,7 +33,7 @@ const Header = ({test}) => {
                     <li>
                         <Link className ={headerStyles.navItem} 
                         activeClassName={headerStyles.activeNavItem} 
-                        to = 'about'>About</Link></li>
+                        to = 'code'>Code</Link></li>
                     <li>
                         <Link className ={headerStyles.navItem} 
                         activeClassName={headerStyles.activeNavItem}
