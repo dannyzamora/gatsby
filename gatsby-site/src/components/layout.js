@@ -13,7 +13,7 @@ const Layout = (props) => {
                     {props.children}
                 </div >
             </div>
-            <Footer/>
+            <Footer test = {props.test}/>
         </div>
     )
 }

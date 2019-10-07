@@ -1,18 +1,19 @@
 import React from 'react'
-import {graphql,useStaticQuery} from 'gatsby'
 import footerStyles from './footer.module.scss'
-const Footer =() =>{
-    const data = useStaticQuery(graphql`
-    query{
-        site{
-          siteMetadata{
-            author
-          }
-        }
-      }`)
+import { FaLinkedin,FaGithub } from "react-icons/fa";
+
+const Footer =({test}) =>{
+  const icon = typeof(test) == 'undefined'? footerStyles.icon:footerStyles.noIcons
+
+   
     return (
-        <footer className={footerStyles.footer}>
-            <p>Created by {data.site.siteMetadata.author}</p>
+        <footer className = {footerStyles.footer}>
+          <a  href = "https://www.linkedin.com/in/danny-zamora/">
+          <FaLinkedin size = '4em' className={icon}/>
+          </a>
+          <a  href = "https://github.com/dannyzamora">
+          <FaGithub size = '4em' className={icon}/>
+          </a>
         </footer>
     )
 }

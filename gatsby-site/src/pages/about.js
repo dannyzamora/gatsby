@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'gatsby' // Navigates through pages
+import { DiPython,DiAngularSimple,DiNodejsSmall,DiReact,DiJava } from "react-icons/di";
 import Layout from '../components/layout'
 import Head from '../components/head'
 
@@ -9,8 +10,14 @@ const AboutPage =() => {
     return (
         <Layout>
             <Head title = 'About'/>
-            <h1> About Me</h1>
-            <p>I currently work at the DOJ</p>
+            <h2>Skills</h2>
+            <div>
+                <DiPython/>
+                <DiReact/>
+                <DiAngularSimple/>
+                <DiNodejsSmall/>
+                <DiReact/>
+            </div>
 
         </Layout>
     )

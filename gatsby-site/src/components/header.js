@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link, graphql,useStaticQuery} from 'gatsby'
-//import './header.module.scss'
+import resume from '../../static/DANNY_ZAMORA.pdf'
 import headerStyles from './header.module.scss'
 const Header = ({test}) => {
     
@@ -39,9 +39,9 @@ const Header = ({test}) => {
                         activeClassName={headerStyles.activeNavItem}
                         to = 'blog'>Blog</Link></li>
                     <li>
-                        <Link className ={headerStyles.navItem}
-                        activeClassName={headerStyles.activeNavItem} 
-                        to = 'resume'>Resume</Link></li>
+                        <a className ={headerStyles.navItem}
+                        target = '_blank' 
+                        href = {resume}>Resume</a></li>
                 </ul>
             </nav>
         </header>
