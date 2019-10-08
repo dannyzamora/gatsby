@@ -34,10 +34,7 @@ const Header = ({test}) => {
                         <Link className ={headerStyles.navItem} 
                         activeClassName={headerStyles.activeNavItem} 
                         to = 'code'>Code</Link></li>
-                    <li>
-                        <Link className ={headerStyles.navItem} 
-                        activeClassName={headerStyles.activeNavItem}
-                        to = 'blog'>Blog</Link></li>
+                   
                     <li>
                         <a className ={headerStyles.navItem}
                         target = '_blank' 
