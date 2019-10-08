@@ -13,33 +13,77 @@ const AboutPage =() => {
             <h2>Skills</h2>
             <ul className = {codeStyles.ul}>
                 <li className = {codeStyles.li}>
-                <DiReact size = '6vh'  />
+                    <div className={codeStyles.skill}>
+                        <DiReact size = '6vh'  />
+                        <div>
+                        <p>React</p>
+                        </div>
+                    </div>
+
                 </li>
 
                 <li className = {codeStyles.li}>
-                    <DiAngularSimple size = '6vh'/>
+                    <div className={codeStyles.skill}>
+                        <DiAngularSimple size = '6vh'/>
+                        <div>
+                        <p>Angular</p>
+                        </div>
+                    </div>
                 </li>
 
                 <li className = {codeStyles.li}>
-                    <DiNodejs size = '6vh'/>
+                    <div className={codeStyles.skill}>
+                        <DiNodejs size = '6vh'/>
+                        <div>
+                        <p>Node.js</p>
+                        </div>
+                    </div>
                 </li>
 
                 <li className = {codeStyles.li}>
-                <DiJavascript1 size = '6vh'/>
+                    <div className={codeStyles.skill}>
+                        <DiJavascript1 size = '6vh'/>
+                        <div>
+                        <p>JavaScript</p>
+                        </div>
+                    </div>
                 </li>
 
                 <li className = {codeStyles.li}>
-                    <DiHtml5 size = '6vh'/>
+                    <div className={codeStyles.skill}>
+                        <DiHtml5 size = '6vh'/>
+                        <div>
+                        <p>HTML5</p>
+                        </div>
+                    </div>
+                </li>
+                <li className = {codeStyles.li}>
+                    <div className={codeStyles.skill}>
+                        <DiCss3 size = '6vh'/>
+                        <div>
+                        <p>CSS</p>
+                        </div>
+                    </div>
+                   
                 </li>
 
                 <li className = {codeStyles.li}>
-                    <DiPython size = '6vh'/>
+                    <div className={codeStyles.skill}>
+                        <DiPython size = '6vh'/>
+                        <div>
+                        <p>Python</p>
+                        </div>
+                    </div>                   
                 </li>
+
+                
                 <li className = {codeStyles.li}>
-                    <DiCss3 size = '6vh'/>
-                </li>
-                <li className = {codeStyles.li}>
-                    <DiJava size = '6vh'/>
+                    <div className={codeStyles.skill}>
+                        <   DiJava size = '6vh'/>
+                        <div>
+                        <p>Java</p>
+                        </div>
+                    </div> 
                 </li>
 
             </ul>

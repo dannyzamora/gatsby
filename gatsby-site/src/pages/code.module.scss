@@ -6,18 +6,36 @@ $total-items: 8;
 
 .ul{
   max-width: 450px;
+
 }
 .li {
   position: relative;
-  display: inline;
+  display: block;
+  font-size: 8px;
+  float: left;
   margin-bottom: 5px;
   padding: 10px;
-  text-align: center;
+  
   text-transform: uppercase;
 
   animation: fadeIn 0.5s linear; // name duration timeing func 
   animation-fill-mode: both;
+  
+    
 }
+
+
+.skill{
+  text-align: center;
+  p {
+    color: transparent
+  }
+  
+  }
+.skill:hover p{
+  color:inherit;
+}
+ 
 
 // Set delay per List Item
 @for $i from 1 through $total-items {
